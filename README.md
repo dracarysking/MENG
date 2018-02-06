@@ -1,2 +1,2 @@
 # MENG
-mRNA enrichment-based next generation sequencing analysis toolkit
+__m__RNA __E__nrichment-based __N__ext __G__eneration sequencing analysis toolkit
