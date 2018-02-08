@@ -1,6 +1,6 @@
 #!/usr/bin/awk -f
 ##***************************************************************
-## Calculate item mean or weighted mean for a specific column.
+## Calculate item sum/mean or weighted mean for a specific column.
 ##
 ## Usage: awk -f ColMean.awk TargetFile
 ##        awk -f ColMean.awk -v col=3 TargetFile
