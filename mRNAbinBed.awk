@@ -3,9 +3,9 @@
 ## 
 ## Note: 
 ##      0. filter ncRNAs and mRNAs without UTR annotation;
-##	    1. confirm the CDS start and end exon index; 
-##	    2. calculate 5UTR/CDS/3UTR length and bin size, filter short transcripts;
-##	    3. get each bin's coordinates.
+##	1. confirm the CDS start and end exon index; 
+##	2. calculate 5UTR/CDS/3UTR length and bin size, filter short transcripts;
+##	3. get each bin's coordinates.
 ## 
 ## Usage: awk -f mRNAbinBed.awk refFlat.txt >refFlat_mRNAbin.bed
 #################################################################################
