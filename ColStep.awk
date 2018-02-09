@@ -16,14 +16,15 @@ BEGIN{
 	for(i=1;i<=100;i++){
 		Rows[i]=int(row/100)*i
 	}
+	RowN=1
+	print "step","value","cumulative value"
 }
 
 {
 	SumCol+=$col
-	i=1
-	if(NR==Rows[i]){
-		print i,SumCol
-		i++
+	if(NR==Rows[RowN]){
+		print RowN,$col,SumCol
+		RowN++
 	}else{
 		next
 	}
