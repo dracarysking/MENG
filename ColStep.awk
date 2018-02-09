@@ -17,7 +17,7 @@ BEGIN{
 		Rows[i]=int(row/100)*i
 	}
 	RowN=1
-	print "step","value","cumulative value"
+	print "step","value","cumulative_value"
 }
 
 {
