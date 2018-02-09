@@ -24,9 +24,10 @@ $2~/NR_/{next}
 ## keep only mRNAs with 5UTR and 3UTR annotations 
 $5!=$7 && $6!=$8{ 
 ## remove the last comma in $10 and $11, then split them into array.  
-	split(gensub(/,$/,"","g",$10),ExonStart,",")
-	split(gensub(/,$/,"","g",$11),ExonEnd,",")
-
+	gsub(/,$/,"",$10)
+	gsub(/,$/,"",$11)
+	split($10,ExonStart,",")
+	split($11,ExonEnd,",")
 ## 1st step
 	for (i=1;i<=$9;i++){
 		if(ExonStart[i]<=$7 && ExonEnd[i]>=$7){
