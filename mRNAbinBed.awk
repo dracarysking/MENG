@@ -3,7 +3,7 @@
 ## Generate 5UTR/CDS/3UTR bins (100 for each part) for mRNAs in refFlat format.
 ## 
 ## Note: 
-##      0. filter ncRNAs and mRNAs without UTR annotation;
+##      0. filter header lines, ncRNAs and mRNAs without UTR annotation;
 ##	1. confirm the CDS start and end exon index; 
 ##	2. calculate 5UTR/CDS/3UTR length and bin size, filter short transcripts;
 ##	3. get each bin's coordinates.
@@ -14,6 +14,9 @@
 BEGIN{
 	FS=OFS="\t"
 }
+
+## remove header lines
+$1~/^#/{next}
 
 ## discard ncRNAs
 $2~/NR_/{next}
