@@ -13,7 +13,7 @@ export PATH=/path/to/MENG:$PATH
 ### MENG.sh
 `MENG.sh` is the main wrapper script of this package for peak distribution calculation and mRNA enrichment efficiency assessment. Please install `bedtools` before using this script.
 
-```bash
+```
     Usage: MENG.sh [-r refFlat.txt] [-p peak.bed] [-t IP.bam] [-c Input.bam]
 
            -r      refFlat file for annotation
