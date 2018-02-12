@@ -9,6 +9,18 @@ chmod a+x *.awk *.sh
 export PATH=/path/to/MENG:$PATH
 ```
 ## Wrapper scripts
-All wrapper scripts need `bedtools` installed before use. 
 
 ### MENG.sh
+`MENG.sh` is the main wrapper script of this package for peak distribution calculation and mRNA enrichment efficiency assessment. Please install `bedtools` before using this script.
+
+```bash
+
+```
+
+`*.freq` files can be used to generate peak frequency plot. 
+
+![peak_frequency_plot](https://github.com/dracarysking/MENG/blob/master/PNG_Peak.png)
+
+`*.qc` files can be used to generate footprint plot for different datasets quality control.
+
+![footprint](https://github.com/dracarysking/MENG/blob/master/PNG_QC.png)
