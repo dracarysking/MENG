@@ -14,7 +14,12 @@ export PATH=/path/to/MENG:$PATH
 `MENG.sh` is the main wrapper script of this package for peak distribution calculation and mRNA enrichment efficiency assessment. Please install `bedtools` before using this script.
 
 ```bash
+    Usage: MENG.sh [-r refFlat.txt] [-p peak.bed] [-t IP.bam] [-c Input.bam]
 
+           -r      refFlat file for annotation
+           -p      peak file for enriched mRNA regions
+           -t      BAM file for treatment group
+           -c      BAM file for control group
 ```
 
 `*.freq` files can be used to generate peak frequency plot. 
