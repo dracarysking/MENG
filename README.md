@@ -34,7 +34,7 @@ I borrowed the idea for ChIP-Seq quality control from [Diaz et al.](https://gith
 
 Here is an example of m6A-Seq fingerprint plot. You can download the raw data from [GSE46705](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46705), or get the processed data from [my google drive](https://drive.google.com/drive/folders/1CxDysblxT3GojH7RTn3naY7gxYqo5gKA?usp=sharing). Just use your favorate plotting tool on `*.qc` files. I used `ggplot2` to generate this:
 
-![fingerprint](./blob/master/PNG_QC.png)
+![fingerprint](./PNG_QC.png)
 
 ## Contact
 Please contact me if you have any questions, problems, or suggestions.
