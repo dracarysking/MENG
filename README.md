@@ -37,4 +37,4 @@ Here is an example of m6A-Seq fingerprint plot. You can download the raw data fr
 ![fingerprint](./PNG_QC.png)
 
 ## Contact
-Please contact me if you have any questions, problems, or suggestions.
+Please contact me if you have any questions, problems, or suggestions. Let me know if you want to copy my code or idea into your own repositories.
